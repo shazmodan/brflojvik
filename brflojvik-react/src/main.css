@@ -1,40 +1,11 @@
-﻿@font-face {
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: normal;
-    src: url("./ProximaNovaAltRegular.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: 700;
-    src: url("./ProximaNovaSemibold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: 'Proxima Nova Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: url("./ProximaNovaThin.woff") format("woff");
-}
-
-@font-face {
-    font-family: 'Proxima Nova Thin';
-    font-style: normal;
-    font-weight: 700;
-    src: url("./ProximaNovaThin.woff2") format("woff2");
-}
-
-
-html { 
+﻿html { 
     height: 100%;
 }
 
 body {
     min-height: 100%; 
     position: relative; 
-    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-family: 'proxima-nova', Georgia, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 0.02em;
@@ -175,7 +146,7 @@ hr.style3 {
 }
 
 .font-thin {
-    font-family: 'Proxima Nova Thin', Georgia, sans-serif;
+    font-family: 'proxima-nova', Georgia, sans-serif;
 }
 
 .start-page__articles {
